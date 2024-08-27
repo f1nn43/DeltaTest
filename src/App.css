@@ -1,0 +1,72 @@
+.app {
+  width: 100%;
+}
+
+.app__inner{
+  width: 1000px;
+  margin: 0 auto;
+}
+table{
+  margin: 0 auto;
+}
+
+.app__inner table tr th{
+  background-color: #F5F5F5;
+  padding: 10px;
+  color: #8A8C9D;
+  font-weight: 700;
+}
+
+.app__inner table tr td{
+  background-color: #F5F5F5;
+  padding: 10px;
+  text-align: end;
+  color: #8A8C9D;
+  font-weight: 500;
+}
+
+.app__inner table tr td:first-child{
+  padding: 10px 35px 10px 10px !important;
+  text-align: start !important;
+}
+
+.app__inner table tr td:nth-child(2){
+  background-color: #EDF8FF !important;
+  padding-right: 30px;
+}
+
+.app__inner table tr td:nth-child(2){
+  background-color: #EDF8FF !important;
+}
+
+.app__inner table tr td:nth-child(4){
+  padding-right: 30px;
+}
+
+.app__inner table tr td span{
+  color: #4C962C;
+  width: 40px;
+  display: inline-block;
+}
+
+.app__active{
+  background-color: #ECF7E7 !important;
+}
+
+.app__warning{
+  background-color: #FEE6E6 !important;
+}
+
+.app__warning span{
+  color: #FF575F !important;
+}
+
+.graph{
+  width: 100% !important;
+}
+
+canvas{
+  width: 500px !important;
+  height: 100% !important;
+  margin: 0 auto;
+}
