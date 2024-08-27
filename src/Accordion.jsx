@@ -21,7 +21,7 @@ const Accordion = (props) => {
             let contents = []
             let graph = document.createElement('tr')
             graph.classList.add('graph');
-            graph.innerHTML = `<td colspan="4"><canvas id="graph${props.deal.id}"></canvas></td>`
+            graph.innerHTML = `<td colspan="4" style="background-color: #fff;"><canvas id="graph${props.deal.id}"></canvas></td>`
             target.parentNode.after(graph)
             const data = [
                 { year: 2010, count: 10 },
